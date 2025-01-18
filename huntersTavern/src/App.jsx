@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Background from './background'
+import Header from './Sections/header.jsx'
 
 function App() {
 
@@ -10,17 +10,12 @@ function App() {
 
 
   return (
+    <>
 
-
-
-    <div>
-
+      <Header/>
       <Background imageUrl={imageUrl} />
-
-
-      <h1>Welcome to My App</h1>
       
-    </div>
+    </>
   )
 }
 
