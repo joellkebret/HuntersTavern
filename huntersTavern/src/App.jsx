@@ -1,8 +1,7 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
 import Background from './background'
-import Header from './Sections/Header.jsx'
+import Header from './Sections/header.jsx'
 
 function App() {
 
@@ -11,10 +10,8 @@ function App() {
 
   return (
     <>
-
-      <Header/>
-      <Background imageUrl={imageUrl} />
-
+        <Header/>
+       <Background imageUrl={imageUrl} />
     
 
     </>
