@@ -26,6 +26,10 @@ const Navbar = () => {
               <li>
                 <a href="/anime">Anime</a>
               </li>
+              <li>
+                <a href="/Forums">Forums</a>
+              </li>
+             
           </ul>
         </div>
 
