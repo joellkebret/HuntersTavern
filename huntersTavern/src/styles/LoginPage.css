@@ -1,0 +1,166 @@
+.login {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    /* flex-grow:  1 1 0; */
+    justify-content: center;
+    /* border: 5px solid red; */
+    
+    flex-wrap: wrap;
+} 
+
+
+.lr_container {
+ /* border: 5px solid red; */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+
+.login_h1 {
+    color: white;
+    font-weight: 850;
+}
+
+.login_login_btn {
+    background: linear-gradient(90deg, rgb(255,165,0), rgb(255,140,0), rgb(255,99,71));
+    color: black;
+}
+
+.login_signup-3 {
+
+    color: white;
+    font-size: 0.8rem;
+}
+
+.or {
+    font-weight: 600;
+}
+
+.login_signup-2 {
+    background: linear-gradient(90deg, rgb(255,165,0), rgb(255,140,0), rgb(255,99,71));
+    -webkit-background-clip: text;  /* Clips the background to the text */
+    -webkit-text-fill-color: transparent; /* Makes the text color transparent to show the gradient */
+    font-size: 0.8rem;
+    font-weight: 800;
+    text-decoration: none; /* Removes underline if it's a link */
+}
+
+.email_form  {
+    width: 100%; /* Ensure the input spans the container */
+    border: 1px solid #ccc; /* Add a subtle border */
+    border-radius: 5px; /* Slightly rounded corners */
+    padding: 0.5rem; /* Add padding inside the input */
+    box-sizing: border-box; /* Include padding in width calculation */
+    font-size: 1rem; /* Ensure readable text size */
+} 
+
+.password_form {
+    width: 100%; /* Ensure the input spans the container */
+    border: 1px solid #ccc; /* Add a subtle border */
+    border-radius: 5px; /* Slightly rounded corners */
+    padding: 0.5rem; /* Add padding inside the input */
+    box-sizing: border-box; /* Include padding in width calculation */
+    font-size: 1rem; /* Ensure readable text size */
+}
+
+
+
+.login_p {
+    color: white;
+}
+
+.or {
+    font-size: 0.8rem;
+    color: white;
+}
+
+.login_signup {
+    color: white;
+    opacity: 0.5;
+}
+
+
+
+.login_leftside {
+    /* border: 5px solid red; */
+    min-width: 20rem;
+    background-color: rgba(15, 15, 15, 0.3);  /* Lighter black with slight gray tint */
+
+    
+    /* Fixing border-radius properties */
+    border-radius: 1rem; /* Applies rounded corners */
+    border-top-right-radius: 0;  /* Removes rounding from top-right corner */
+    border-bottom-right-radius: 0; /* Removes rounding from bottom-right corner */
+    
+    padding-top: 2rem;
+}
+
+
+.login_rightside {
+    /* border: 5px solid red; */
+    background-color: rgba(18, 28, 43, 0.97);
+    backdrop-filter: blur(1.5px);
+        /* linear-gradient(90deg, rgba(255,165,0,0.8), rgba(255,140,0,0.8), rgba(255,99,71,0.8)),  */
+    
+    
+    border-radius: 1rem;  /* Apply rounded corners */
+    border-top-left-radius: 0; /* Removes rounding from top-left corner */
+    border-bottom-left-radius: 0; /* Removes rounding from bottom-left corner */
+    display: flex;
+    justify-content: flex-end; /* Aligns content to the end */
+}
+
+
+.login_content {
+    display: flex;
+    justify-content: start;
+    /* border: 5px solid red; */
+    
+    margin-top: 3rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    background-color: rgba(18, 28, 43, 0.97);
+    backdrop-filter: blur(1.5px);
+}
+
+.testing {
+    display: flex;
+    /* border: 5px solid red; */
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+    width: 100%;
+    
+}
+
+.gon_img {
+    object-fit: contain;
+    width: 450px;
+    height: 450px;
+}
+
+
+
+.login_btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 2rem;
+    /* border: 5px solid red; */
+}
+
+.login_email {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.login_password {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+

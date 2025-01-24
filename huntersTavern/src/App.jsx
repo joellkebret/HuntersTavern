@@ -11,6 +11,8 @@ import LorePage from './pages/LorePage.jsx';
 import ForumPage from './pages/ForumPage.jsx';
 import AnimePage from './pages/AnimePage.jsx';
 import MangaPage from './pages/MangaPage.jsx';
+import SignupPage from './pages/SignupPage.jsx';
+import LoginPage from './pages/LoginPage.jsx';
 
 function App() {
 
@@ -34,6 +36,8 @@ function App() {
         <Route path="/forum" element={<ForumPage />} />
         <Route path="/anime" element={<AnimePage />} />
         <Route path="/manga" element={<MangaPage />} />
+        <Route path="/Login" element={<LoginPage />} />
+        <Route path="/Sign-Up" element={<SignupPage/>}/>
       </Routes>
     </Router>
 

@@ -1,47 +1,84 @@
+.ParentWelcome {
+    border: 5px solid red;
+    overflow: hidden;
+}
+
 .WelcomeContainer {
-    display: flex; /* Flex container to align children horizontally */
-    position: fixed; /* Fixed to the viewport */
-    width: 85vw;
-    height: 70%;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%); /* Center the entire container */
-    z-index: 1000;
+    display: flex;
+    width: 78.5vw;
+    margin: 10rem auto;
+    height: 35rem;
     background-color: rgba(18, 28, 43, 0.97);
     border-radius: 1rem;
+    margin-top: 2rem;
 }
 
 .welcomeMsg {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%; /* Take up half the width of the parent container */
-    height: 100%;
+    width: 50%;
+    height: auto;
     text-align: center;
     color: white;
-    background-color: rgb(31, 35, 53, 0.7);
+    background-color: rgba(31, 35, 53, 0.7);
     border-radius: 3rem;
-    font-size: 60%;
-    z-index: 1001;
-    margin-right: 4rem;
+    font-size: 0.5rem;
+    padding: 2rem;
+    margin: 3rem 4rem;
     max-width: 50%;
     max-height: 80%;
-    margin-top: 3rem;
 }
 
 .welcomeImg {
-    width: 50%; /* Take up half the width of the parent container */
-    height: 100%; /* Adjust to take the full height of the container */
+    width: 30%;
+    height: auto;
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    margin: 0;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4rem;
 }
 
-/* Add styles for the image if needed */
 .welcomeImg img {
     max-width: 100%;
-    max-height: 90%;
-    border-radius: 5rem; /* Optional: Add rounding to the image */
-    object-fit: contain; /* Ensure the image scales within its container */
+    max-height: 100%;
+    border-radius: 5rem;
+    object-fit: contain;
+}
+
+.aboutContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 79vw;
+    margin: 5rem auto;
+    height: auto;
+    background-color: rgba(18, 28, 43, 0.97);
+    border-top: 15px rgb(99, 58, 125) solid;
+    border-radius: 1rem;
+    padding: 2rem;
+    flex-direction: column; /* Stack title and text vertically */
+}
+
+.aboutTitle {
+    position: absolute;
+    top: -3.6rem; /* Adjust as needed to position the title */
+    left: 0;
+    background-color: rgb(165,111,198); /* Matching the example color */
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border-bottom-left-radius: 0; 
+    color: white;
+    font-size: 1.2rem;
+    z-index: 10; /* Ensure the title stays on top */
+}
+
+.aboutText {
+    text-align: center;
+    color: white;
+    font-size: 0.7rem;
+    background-color: rgba(31, 35, 53, 0.7);
+    padding: 2rem;
+    border-radius: 1rem;
 }
