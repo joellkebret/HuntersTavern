@@ -164,3 +164,19 @@
     align-items: start;
 }
 
+.underline {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Optional: Link styling */
+.login_signup {
+    color: white;
+    font-size: 0.8rem;
+    text-decoration: none; /* Ensures only "Sign-up" gets underlined */
+}
+
+.login_signup:hover {
+    color: rgb(255, 165, 0);
+    text-decoration: none;
+}

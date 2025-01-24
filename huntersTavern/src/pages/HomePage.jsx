@@ -30,7 +30,7 @@ function HomePage() {
             </div>
 
 
-            <h3>Hello {userName|| "Guest"}, welcome to the home</h3>
+            {/* <h3>Hello {userName|| "Guest"}, welcome to the home</h3> */}
         </div>
     );
 }

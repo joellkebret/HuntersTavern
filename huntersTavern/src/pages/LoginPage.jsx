@@ -63,8 +63,9 @@ function Login() {
 <p className="or">OR</p>
 <br />
 
-<Link className="login_signup-3" to="/Sign-up">New User? </Link>
-<Link className="login_signup-2" to="/Sign-up">Sign-up</Link>
+<Link className="login_signup" to="/Sign-up">
+  New User? <span className="underline">Sign-up</span>
+</Link>
     </div>
 
  <div className="login_rightside login_img">

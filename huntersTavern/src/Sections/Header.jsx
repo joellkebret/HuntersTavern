@@ -40,7 +40,7 @@ const Header = () => {
 
             {userName ? (
               <div className="user-info">
-                <p className='user-name'>{userName}</p>
+                <p className='user-name'>Hello, {userName}</p>
                 <button className='logout-btn' onClick={handleLogout}>Logout</button>
               </div>
             ) : (

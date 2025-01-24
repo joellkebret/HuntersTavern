@@ -1,0 +1,114 @@
+.signup {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* border: solid red 5px; */
+}
+
+.signup_content {
+    display: flex;
+    justify-content: start;
+    margin-top: 3rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    background-color: rgba(18, 28, 43, 0.97);
+    backdrop-filter: blur(1.5px);
+    /* border: solid red 5px; */
+}
+
+.signup_container {
+    display: flex;
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+    width: 100%;
+    /* border: solid red 5px;   */
+}
+
+.signup_leftside {
+    min-width: 20rem;
+    background-color: rgba(15, 15, 15, 0.3);
+    border-radius: 1rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    padding-top: 2rem;
+    /* border: solid red 5px;  */
+}
+
+.signup_h1 {
+    color: white;
+    font-weight: 850;
+}
+
+.signup_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 2rem;
+}
+
+.signup_email, .signup_username, .signup_password {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-decoration: white ;
+}
+
+.email_input, .username_input, .password_input {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    font-size: 1rem;
+    text-decoration: white;
+}
+
+.signup_button {
+    background: linear-gradient(90deg, rgb(255,165,0), rgb(255,140,0), rgb(255,99,71));
+    color: black;
+}
+
+.or {
+    font-weight: 600;
+    color: white;
+}
+
+.signup_login-link {
+    color: white;
+    font-size: 0.8rem;
+    text-decoration: none;
+    font-weight: 800;
+    background: linear-gradient(90deg, rgb(255,165,0), rgb(255,140,0), rgb(255,99,71));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.signup_rightside {
+    background-color: rgba(18, 28, 43, 0.97);
+    backdrop-filter: blur(1.5px);
+    border-radius: 1rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    display: flex;
+    justify-content: flex-end;
+    /* border: solid red 5px; */
+}
+
+.signup_img {
+    object-fit: contain;
+    width: 450px;
+    height: 450px;
+    margin-top: 3rem;
+}
+
+.signup_email p, 
+.signup_username p, 
+.signup_password p {
+    color: white;
+    font-size: 1rem; /* Adjust size if necessary */
+    font-weight: 500; /* Optional for readability */
+}
