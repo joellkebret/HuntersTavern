@@ -15,7 +15,7 @@ function Login() {
         e.preventDefault();
     
         try {
-            const res = await axios.post("http://localhost:7000/Login", {
+            const res = await axios.post("http://localhost:7001/Login", {
                 email, 
                 password
             });
@@ -32,7 +32,7 @@ function Login() {
         }
         catch (e) {
             console.error("Error occurred:", e);
-            alert("Something went wrong!");
+            alert("Incorrect Email or Passoword!");
         }
     }
     

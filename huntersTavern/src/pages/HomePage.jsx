@@ -9,6 +9,9 @@ function HomePage() {
 
     return (
         <div className='HomeContainer'>
+            {/* <div className='welcomeTitle'>
+                <h1 className='welcome-user'>Hello {userName|| "Guest"}, welcome to the home</h1>
+            </div> */}
             <div className='WelcomeContainer'>
                 <div className='welcomeImg'>
                     <img src='./welcomeImg.jpg' alt='Welcome Image' />

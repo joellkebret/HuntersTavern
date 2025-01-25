@@ -2,7 +2,7 @@ import React from 'react'
 
 function ForumPage() {
   return (
-    <h1>ForumPage</h1>
+    <h1> Forum Page </h1>
   )
 }
 

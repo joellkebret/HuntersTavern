@@ -7,7 +7,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 //import pages
 import HomePage from './pages/HomePage.jsx';
 import PopularPage from './pages/PopularPage.jsx';
-import LorePage from './pages/LorePage.jsx';
+import CharacterPage from './pages/CharacterPage.jsx';
 import ForumPage from './pages/ForumPage.jsx';
 import AnimePage from './pages/AnimePage.jsx';
 import MangaPage from './pages/MangaPage.jsx';
@@ -32,7 +32,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/popular" element={<PopularPage />} />
-        <Route path="/lore" element={<LorePage />} />
+        <Route path="/characters" element={<CharacterPage />} />
         <Route path="/forum" element={<ForumPage />} />
         <Route path="/anime" element={<AnimePage />} />
         <Route path="/manga" element={<MangaPage />} />

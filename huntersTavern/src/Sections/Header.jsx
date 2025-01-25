@@ -25,11 +25,11 @@ const Header = () => {
 
           <div className="navbar-center">
             <ul className="nav-links">
-              <li><a href="/popular">Popular</a></li>
-              <li><a href="/lore">Lore</a></li>
-              <li><a href="/manga">Manga</a></li>
-              <li><a href="/anime">Anime</a></li>
-              <li><a href="/forums">Forums</a></li>
+            <li><a href="/forums">Forums</a></li>
+            <li><a href="/characters">Characters</a></li>
+            <li><a href="/popular">Popular</a></li>
+            <li><a href="/anime">Anime</a></li>
+            <li><a href="/manga">Manga</a></li>
             </ul>
           </div>
 

@@ -3,14 +3,15 @@
     overflow: hidden;
 }
 
-.WelcomeContainer {
+.HomeContainer {
     display: flex;
-    width: 78.5vw;
-    margin: 10rem auto;
-    height: 35rem;
-    background-color: rgba(18, 28, 43, 0.97);
-    border-radius: 1rem;
-    margin-top: 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    width: 100%;
+    max-width: 1200px; /* Adjust width if needed */
+    margin: 0 auto; /* Centers the container horizontally */
+    padding: 2rem 0; /* Add padding for spacing */
 }
 
 .welcomeMsg {
@@ -18,7 +19,7 @@
     justify-content: center;
     align-items: center;
     width: 50%;
-    height: auto;
+    height: 70%;
     text-align: center;
     color: white;
     background-color: rgba(31, 35, 53, 0.7);
@@ -26,8 +27,8 @@
     font-size: 0.5rem;
     padding: 2rem;
     margin: 3rem 4rem;
-    max-width: 50%;
-    max-height: 80%;
+    max-width: 70%;
+    max-height: 90%;
 }
 
 .welcomeImg {
@@ -51,11 +52,11 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    width: 79vw;
-    margin: 5rem auto;
-    height: auto;
+    width: 75vw;
+    margin-top: 4.9rem;
+    height: 4rem auto;
     background-color: rgba(18, 28, 43, 0.97);
-    border-top: 15px rgb(99, 58, 125) solid;
+    border-top: 15px #f07422 solid;
     border-radius: 1rem;
     padding: 2rem;
     flex-direction: column; /* Stack title and text vertically */
@@ -63,22 +64,54 @@
 
 .aboutTitle {
     position: absolute;
-    top: -3.6rem; /* Adjust as needed to position the title */
+    top: -3.7rem; /* Adjust as needed to position the title */
     left: 0;
-    background-color: rgb(165,111,198); /* Matching the example color */
+    background-color: rgb(244, 128, 20); /* Matching the example color */
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
     border-bottom-left-radius: 0; 
     color: white;
     font-size: 1.2rem;
-    z-index: 10; /* Ensure the title stays on top */
+    z-index: 1001; /* Ensure the title stays on top */
 }
 
 .aboutText {
     text-align: center;
-    color: white;
+    max-width: 95%; /* Adjust width to avoid stretching too much */
     font-size: 0.7rem;
+    color: white;
     background-color: rgba(31, 35, 53, 0.7);
     padding: 2rem;
     border-radius: 1rem;
+    line-height: 1.8;
+}
+
+.WelcomeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;  /* Ensure it doesn't exceed viewport width */
+    margin: 0 auto; /* Center it horizontally */
+    height: 35rem;
+    background-color: rgba(18, 28, 43, 0.97);
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.welcomeTitle{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-left: -23rem;
+}
+.welcome-user{
+    color: white;
+    font-size: 3rem;
+    margin: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    -webkit-text-stroke: 0.5px black;
+    text-size-adjust: 100%;
+    max-width: fit-content;
+    
+    
 }

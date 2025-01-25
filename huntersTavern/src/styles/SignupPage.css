@@ -68,11 +68,13 @@
 }
 
 .signup_button {
+    margin-top: -0.5rem;
     background: linear-gradient(90deg, rgb(255,165,0), rgb(255,140,0), rgb(255,99,71));
     color: black;
 }
 
 .or {
+    margin-top: 0.3rem;
     font-weight: 600;
     color: white;
 }
@@ -85,6 +87,7 @@
     background: linear-gradient(90deg, rgb(255,165,0), rgb(255,140,0), rgb(255,99,71));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin-top: -1rem;
 }
 
 .signup_rightside {
