@@ -1,11 +1,11 @@
-🏹 Hunter's Tavern - A Hunter x Hunter Wiki 🏹
-Welcome to Hunter's Tavern, an all-encompassing Hunter x Hunter wiki website built with a fully functional forum, detailed character and location pages, and a secure login/logout system. This project leverages modern web technologies to provide an engaging experience for fans of the series.
+#🏹 Hunter's Tavern - A Hunter x Hunter Wiki 🏹
+##Welcome to Hunter's Tavern, an all-encompassing Hunter x Hunter wiki website built with a fully functional forum, detailed character and location pages, and a secure login/logout system. This project leverages ##modern web technologies to provide an engaging experience for fans of the series.
 
-🚀 Features
-Character Pages:
+#🚀 Features
+##Character Pages:
 
-Detailed information about key characters from the series.
-Dynamic data rendering using React and Vite.
+###Detailed information about key characters from the series.
+###Dynamic data rendering using React and Vite.
 Location Pages:
 
 Comprehensive details of important locations such as Whale Island, Yorknew City, Heavens Arena, and Greed Island.
