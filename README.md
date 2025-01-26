@@ -68,6 +68,7 @@ Sign-up Page
 ## 🐞 Known Issues & Future Improvements
 
 - Implement user contribution to add to the library of information.
+- Web scraper for popular social media posts related to hunter x hunter
 - Add profile pictures and an account section.
 - Improve forum moderation features.
 - Implement better error handling for user authentication.
