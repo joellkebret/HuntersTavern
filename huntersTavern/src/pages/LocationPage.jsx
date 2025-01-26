@@ -18,7 +18,7 @@ const locations = [
     name: 'Kukoroo Mountain',
     imgSrc: 'kukuroo-mountain.jpg',
     description:
-    "Kukuroo Mountain is the secluded and heavily guarded home of the infamous Zoldyck family, the world's most feared assassins. Nestled within towering peaks and surrounded by dense forests, the mountain conceals a massive estate equipped with deadly traps and elite guards. Few outsiders have ever set foot beyond its gates and lived to tell the tale."
+    "Kukuroo Mountain is the secluded and heavily guarded home of the infamous Zoldyck family, the world's most feared assassins. The mountain is shrouded in mystery and danger and fierce guardians protecting its secrets.",
   },
   {
     name: 'Greed Island',
