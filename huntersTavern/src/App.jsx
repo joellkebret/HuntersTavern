@@ -37,8 +37,6 @@ function App() {
         <Route path="/characters" element={<CharacterPage />} />
         <Route path="/forum" element={<ForumPage />} />
         <Route path="/locations" element={<LocationPage />} />
-        <Route path="/anime" element={<ErrorPage />} />
-        <Route path="/manga" element={<ErrorPage />} />
         <Route path="/Login" element={<LoginPage />} />
         <Route path="/Sign-Up" element={<SignupPage/>}/>
       </Routes>

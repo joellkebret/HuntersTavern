@@ -29,8 +29,6 @@ const Header = () => {
             <li><a href="/error">Popular</a></li>
             <li><a href="/characters">Characters</a></li>
             <li><a href="/locations">Locations</a></li>
-            <li><a href="/error">Anime</a></li>
-            <li><a href="/error">Manga</a></li>
             
             
             </ul>
