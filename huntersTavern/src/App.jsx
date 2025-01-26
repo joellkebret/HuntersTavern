@@ -13,6 +13,8 @@ import AnimePage from './pages/AnimePage.jsx';
 import MangaPage from './pages/MangaPage.jsx';
 import SignupPage from './pages/SignupPage.jsx';
 import LoginPage from './pages/LoginPage.jsx';
+import LocationPage from './pages/LocationPage.jsx';
+import ErrorPage from './pages/ErrorPage.jsx';
 
 function App() {
 
@@ -31,11 +33,12 @@ function App() {
       {/* Routes for the content of the app */}
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/popular" element={<PopularPage />} />
+        <Route path="/popular" element={<ErrorPage/>} />
         <Route path="/characters" element={<CharacterPage />} />
         <Route path="/forum" element={<ForumPage />} />
-        <Route path="/anime" element={<AnimePage />} />
-        <Route path="/manga" element={<MangaPage />} />
+        <Route path="/locations" element={<LocationPage />} />
+        <Route path="/anime" element={<ErrorPage />} />
+        <Route path="/manga" element={<ErrorPage />} />
         <Route path="/Login" element={<LoginPage />} />
         <Route path="/Sign-Up" element={<SignupPage/>}/>
       </Routes>
