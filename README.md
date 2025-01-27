@@ -6,6 +6,10 @@ Welcome to **Hunter's Tavern**, an all-encompassing **Hunter x Hunter** wiki web
 
 ## 🚀 Features
 
+### 🔹 Realtime Chat Pages:
+- Pages where users can chat live with others on the plat form in a general, annoucements, anime and manga chat using **Firebase Firestore**!
+- Requires users to make an account before being able to chat using **MongoDB** for user tracking.
+
 ### 🔹 Character Pages:
 - Detailed information about key characters from the series.
 - Dynamic data rendering using **React and Vite**.
@@ -36,6 +40,8 @@ Welcome to **Hunter's Tavern**, an all-encompassing **Hunter x Hunter** wiki web
 - 🟢 Node.js *(Runtime environment)*
 - 🚀 Express.js *(Backend framework)*
 - 💾 MongoDB *(Database for user authentication and forum data)*
+- 🔥 Firebase Firestore (Database)
+- 🔒 Firebase Authentication (Login Checks)
 
 ---
 
@@ -49,6 +55,11 @@ Welcome to **Hunter's Tavern**, an all-encompassing **Hunter x Hunter** wiki web
 Homepage
 ![image](https://github.com/user-attachments/assets/c9713c24-33ab-4da4-9004-50682ece16d9)
 
+Chat Menu
+![image](https://github.com/user-attachments/assets/2e200f88-c4da-4a6d-af9e-a547b0dfb392)
+
+Chat Page
+![image](https://github.com/user-attachments/assets/e4cd3dd4-6fa1-4eec-bf24-f0fa8f2dcc75)
 
 Character Page
 ![image](https://github.com/user-attachments/assets/a245fb76-95a2-4086-8056-db3284341ddc)
@@ -70,9 +81,9 @@ Sign-up Page
 - Implement user contribution to add to the library of information.
 - Web scraper for popular social media posts related to hunter x hunter
 - Add profile pictures and an account section.
-- Improve forum moderation features.
-- Implement better error handling for user authentication.
-- Add pagination for forum threads.
+- Implement chat moderation
+- Allow users to attach files and message privately
+- Push Notifications for when messages are sent
 
 ---
 
