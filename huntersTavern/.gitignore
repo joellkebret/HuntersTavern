@@ -24,3 +24,5 @@ dist-ssr
 *.sw?
 server/mongo.js
 server/firebaseConfig.js
+
+.vercel

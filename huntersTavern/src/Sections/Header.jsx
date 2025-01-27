@@ -25,10 +25,10 @@ const Header = () => {
 
             <div className="navbar-center">
               <ul className="nav-links">
-                <li><a href="/chat">Chat</a></li>
-                <li><a href="/popular">Popular</a></li>
-                <li><a href="/characters">Characters</a></li>
-                <li><a href="/locations">Locations</a></li>
+              <li><Link to="/chat">Chat</Link></li>
+              <li><Link to="/popular">Popular</Link></li>
+              <li><Link to="/characters">Characters</Link></li>
+              <li><Link to="/locations">Locations</Link></li>
               </ul>
             </div>
 
