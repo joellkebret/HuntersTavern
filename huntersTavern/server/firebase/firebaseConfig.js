@@ -1,9 +1,7 @@
-// Import necessary Firebase services
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 import { getAnalytics } from "firebase/analytics";
 
-// Your Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyAAsGywkV8BmBTFLS5V01L0MCecArOxf24",
   authDomain: "hunterstavern-chat.firebaseapp.com",
@@ -14,9 +12,8 @@ const firebaseConfig = {
   measurementId: "G-3D3Y2RGLFP"
 };
 
-// Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
 const db = getFirestore(app);
+const analytics = getAnalytics(app);
 
-export { app, analytics, db };
+export { db, analytics };

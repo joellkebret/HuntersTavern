@@ -1,9 +1,8 @@
-import { useState } from 'react';
+import React, { useState } from "react";
 import './App.css';
 import Background from './background';
 import Header from './Sections/header.jsx';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
 // Import pages
 import HomePage from './pages/HomePage.jsx';
 import PopularPage from './pages/PopularPage.jsx';
@@ -15,7 +14,7 @@ import SignupPage from './pages/SignupPage.jsx';
 import LoginPage from './pages/LoginPage.jsx';
 import LocationPage from './pages/LocationPage.jsx';
 import ErrorPage from './pages/ErrorPage.jsx';
-import ChatPage from './pages/ChatPage.jsx';
+import ChatRoom from './pages/ChatPage.jsx';
 
 function App() {
   const imageUrl = '/background.jpg';
@@ -34,7 +33,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/popular" element={<ErrorPage />} />
           <Route path="/characters" element={<CharacterPage />} />
-          <Route path="/chat" element={<ChatPage />} />
+          <Route path="/chat" element={<ChatRoom />} />
           <Route path="/locations" element={<LocationPage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/sign-up" element={<SignupPage />} />
