@@ -52,28 +52,27 @@ Welcome to **Hunter's Tavern**, an all-encompassing **Hunter x Hunter** wiki web
 ---
 
 ## 📸 Screenshots 
-Homepage
+## Homepage
 ![image](https://github.com/user-attachments/assets/c9713c24-33ab-4da4-9004-50682ece16d9)
 
-Chat Menu
+## Chat Menu
 ![image](https://github.com/user-attachments/assets/2e200f88-c4da-4a6d-af9e-a547b0dfb392)
 
-Chat Page
+## Chat Page
 ![image](https://github.com/user-attachments/assets/e4cd3dd4-6fa1-4eec-bf24-f0fa8f2dcc75)
 
-Character Page
+## Character Page
 ![image](https://github.com/user-attachments/assets/a245fb76-95a2-4086-8056-db3284341ddc)
 
-
-Location Page
+## Location Page
 ![image](https://github.com/user-attachments/assets/190c974e-2401-4ed8-af7e-283a9c311f71)
 
 
-Login Page
+## Login Page
 ![image](https://github.com/user-attachments/assets/18e674f8-d5c2-45aa-a316-ed86e5d54e00)
 
 
-Sign-up Page
+## Sign-up Page
 ![image](https://github.com/user-attachments/assets/49e32719-230b-49e7-81f7-571927445d7a)
 
 ## 🐞 Known Issues & Future Improvements
