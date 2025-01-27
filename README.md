@@ -76,7 +76,7 @@ Welcome to **Hunter's Tavern**, an all-encompassing **Hunter x Hunter** wiki web
 ![image](https://github.com/user-attachments/assets/49e32719-230b-49e7-81f7-571927445d7a)
 
 ## 🐞 Known Issues & Future Improvements
-
+- Add error page (specifically for the unincluded popular page)
 - Implement user contribution to add to the library of information.
 - Web scraper for popular social media posts related to hunter x hunter
 - Add profile pictures and an account section.
