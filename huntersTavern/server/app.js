@@ -1,6 +1,8 @@
 import express from "express";
 import collection from "./mongo.js";
 import cors from "cors";
+
+
 const app = express();
 
 app.use(express.json());

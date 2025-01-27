@@ -1,10 +1,10 @@
-import { useState } from 'react'
-import './App.css'
-import Background from './background'
-import Header from './Sections/header.jsx'
+import { useState } from 'react';
+import './App.css';
+import Background from './background';
+import Header from './Sections/header.jsx';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-//import pages
+// Import pages
 import HomePage from './pages/HomePage.jsx';
 import PopularPage from './pages/PopularPage.jsx';
 import CharacterPage from './pages/CharacterPage.jsx';
@@ -15,35 +15,33 @@ import SignupPage from './pages/SignupPage.jsx';
 import LoginPage from './pages/LoginPage.jsx';
 import LocationPage from './pages/LocationPage.jsx';
 import ErrorPage from './pages/ErrorPage.jsx';
+import ChatPage from './pages/ChatPage.jsx';
 
 function App() {
-
   const imageUrl = '/background.jpg';
-
 
   return (
     <>
-        <Router>
-      {/* Header is always displayed */}
-      <Header />
+      <Router>
+        {/* Header is always displayed */}
+        <Header />
 
-      {/* Background is always displayed */}
-      <Background imageUrl={imageUrl} />
+        {/* Background is always displayed */}
+        <Background imageUrl={imageUrl} />
 
-      {/* Routes for the content of the app */}
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/popular" element={<ErrorPage/>} />
-        <Route path="/characters" element={<CharacterPage />} />
-        <Route path="/forum" element={<ForumPage />} />
-        <Route path="/locations" element={<LocationPage />} />
-        <Route path="/Login" element={<LoginPage />} />
-        <Route path="/Sign-Up" element={<SignupPage/>}/>
-      </Routes>
-    </Router>
-
+        {/* Routes for the content of the app */}
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/popular" element={<ErrorPage />} />
+          <Route path="/characters" element={<CharacterPage />} />
+          <Route path="/chat" element={<ChatPage />} />
+          <Route path="/locations" element={<LocationPage />} />
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/sign-up" element={<SignupPage />} />
+        </Routes>
+      </Router>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
