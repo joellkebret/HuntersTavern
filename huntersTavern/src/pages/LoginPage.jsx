@@ -15,7 +15,7 @@ function Login() {
         e.preventDefault();
     
         try {
-            const res = await axios.post("https://hunters-tavern-hc8i1vje4-joellkebrets-projects.vercel.app/login", {
+            const res = await axios.post("http://localhost:7001/Login", {
                 email, 
                 password
             });

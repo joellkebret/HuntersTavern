@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 import './App.css';
+import dotenv from "dotenv";
+
+// Load environment variables
+dotenv.config();
 import Background from './background';
 import Header from './Sections/header.jsx';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';

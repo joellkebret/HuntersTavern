@@ -2,14 +2,13 @@ import express from "express";
 import collection from "./mongo.js";
 import cors from "cors";
 
-
 const app = express();
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 
-app.get("/", cors(), (req, res) => {
+app.get("/", (req, res) => {
     res.send("Welcome to The Hunter's Tavern API!");
 });
 
@@ -55,6 +54,8 @@ app.post("/Sign-up", async (req, res) => {
     }
 });
 
-app.listen(7001, () => {
-    console.log("Server running on port 7001");
+const PORT = process.env.PORT || 7001;
+
+app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
 });

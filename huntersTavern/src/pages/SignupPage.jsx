@@ -14,7 +14,7 @@ function SignupPage() {
         console.log("Submitting form with:", { email, userName, password });
 
         try {
-            const res = await axios.post("https://hunters-tavern-hc8i1vje4-joellkebrets-projects.vercel.app/Sign-up", { 
+            const res = await axios.post("http://localhost:7001/Sign-up", { 
                 email, 
                 password, 
                 userName 
